@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Hunter
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ hunter.\r\n\ Hunters\ move\ to\ random\ places\ and\ try\ to\ kill\ animals\ adjacent\ to\ them.\r\n\ If\ successful\ the\ hunter\ moves\ to\ the\ killed\ animals\ location\ and\r\n\ checks\ for\ more\ adjacent\ animals\ to\ kill.\r\n\ @author\ Matthew\ Mabrey\r\n\ @version\ 2019.04.23\r\n
+comment1.params=field\ location
+comment1.target=Hunter(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ hunter.\ A\ hunter\ has\ no\ age\ or\ food\ level\ and\ never\ dies.\r\n\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newHunters
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ hunter\:\ it\ hunts\ for\r\n\ rabbits\ and\ foxes\ and\ moves\ to\ random\ locations.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ newHunters\ An\ empty\ list\ for\ the\ current\ simulation.\r\n
+comment3.params=
+comment3.target=Location\ findPrey()
+comment3.text=\r\n\ Look\ for\ rabbits\ and\ foxes\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ live\ animal\ is\ killed.\r\n
+numComments=4
